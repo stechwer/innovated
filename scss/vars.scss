@@ -1,6 +1,7 @@
 $white: #fff;
 $blue: #2d74ff;
 $black: #171832;
+$background-color:#F8F8F8;
 $Gelasio: "Gelasio", serif;
 $Poppins: "Poppins", sans-serif;
 
@@ -40,6 +41,11 @@ $Poppins: "Poppins", sans-serif;
     border-radius: 5px;
     color: $white;
     font-family: $Poppins;
+}
+.platform-container{
+    max-width: 1255px;
+    padding:0px 15px;
+    margin: 0 auto;
 }
 @mixin flex {
     display: flex;

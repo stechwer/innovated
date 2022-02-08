@@ -391,6 +391,12 @@ template {
   font-family: "Poppins", sans-serif;
 }
 
+.platform-container {
+  max-width: 1255px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
 *,
 ::after,
 ::before {
@@ -403,6 +409,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  background-color: #F8F8F8;
 }
 
 a {
@@ -500,4 +507,54 @@ img {
   position: absolute;
   left: 0;
   top: -14px;
+}
+
+.platform {
+  padding: 55px 0px;
+}
+.platform-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.platform-content {
+  padding-left: 40px;
+  width: 100%;
+  max-width: 423px;
+}
+.platform-conten__title {
+  font-family: "Gelasio", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  max-width: 292px;
+}
+.platform-conten__text {
+  opacity: 0.7;
+  max-width: 423px;
+  margin-bottom: 40px;
+}
+.platform-image {
+  width: 100%;
+  max-width: 784px;
+  height: 484px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.platform-play {
+  cursor: pointer;
 }

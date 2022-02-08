@@ -12,6 +12,7 @@ body {
     font-family: $Poppins;
     font-weight: 400;
     font-size: 18px;
+    background-color: $background-color;
 }
 a {
     text-decoration: none;
@@ -86,10 +87,45 @@ img {
         opacity: 0.7;
         padding-left: 60px;
     }
-    &-content__btn:nth-child(2)::after{
+    &-content__btn:nth-child(2)::after {
         content: url(../images/header-play.svg);
         position: absolute;
         left: 0;
-        top:-14px;
+        top: -14px;
+    }
+}
+.platform {
+    padding: 55px 0px;
+    &-inner {
+        @include flex;
+    }
+    &-content{
+        padding-left: 40px;
+        width: 100%;
+        max-width: 423px;
+    }
+    &-conten__title {
+        font-family: $Gelasio;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        max-width: 292px;
+    }
+    &-conten__text{
+        opacity: 0.7;
+        max-width: 423px;
+        margin-bottom:40px;
+    }
+    &-image{
+        width: 100%;
+        max-width:784px;
+        height: 484px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-play{
+        cursor: pointer;
     }
 }
