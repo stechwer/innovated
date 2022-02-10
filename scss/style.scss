@@ -91,7 +91,7 @@ img {
         content: url(../images/header-play.svg);
         position: absolute;
         left: 0;
-        top: -14px;
+        top: -10px;
     }
 }
 .platform {
@@ -130,7 +130,7 @@ img {
     }
 }
 .services {
-    padding: 22px 0px;
+    padding: 22px 0px 70px;
     &__title {
         text-align: center;
         margin-bottom: 80px;
@@ -165,6 +165,43 @@ img {
         &__text{
             max-width: 315px;
             margin: 0 auto;
+        }
+    }
+}
+.reviews{
+    padding:70px 0px;
+    &__title{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &-slider{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &__image{
+            margin-bottom: 15px;
+        }
+        &__text{
+            margin-bottom: 30px;
+        }
+        &__item{
+            padding:50px 83px 50px 81px;
+            max-width: 555px;
+            background-color:$white;
+            box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.03);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+    &-inner{
+        display: flex;
+        &__content{
+            margin-left: 30px;
+        }
+        &__name{
+            font-size: 24px;
+        }
+        &__job{
+            font-family:$Poppins, sans-serif;;
         }
     }
 }
