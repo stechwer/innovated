@@ -142,15 +142,15 @@ img {
             border: 1px solid rgba(0, 0, 0, 0.1);
             border-radius: 10px;
             width: 360px;
-            background-color:$white;
-            padding:23px;
+            background-color: $white;
+            padding: 23px;
             text-align: center;
             opacity: 0.7;
-            cursor:pointer;
+            cursor: pointer;
         }
-        &__item:hover{
-            background-color:$white;
-            opacity:unset;
+        &__item:hover {
+            background-color: $white;
+            opacity: unset;
         }
         &__image {
             margin: 0 auto;
@@ -160,48 +160,95 @@ img {
         &__title {
             font-size: 24px;
             line-height: 150%;
-            
         }
-        &__text{
+        &__text {
             max-width: 315px;
             margin: 0 auto;
         }
     }
 }
-.reviews{
-    padding:70px 0px;
-    &__title{
+.reviews {
+    padding: 70px 0px;
+    &__title {
         text-align: center;
         margin-bottom: 60px;
     }
-    &-slider{
+    &-slider {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        &__image{
+        &__image {
             margin-bottom: 15px;
         }
-        &__text{
+        &__text {
             margin-bottom: 30px;
         }
-        &__item{
-            padding:50px 83px 50px 81px;
+        &__item {
+            padding: 50px 83px 50px 81px;
             max-width: 555px;
-            background-color:$white;
+            background-color: $white;
             box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.03);
             border-radius: 10px;
             border: 1px solid rgba(0, 0, 0, 0.1);
         }
     }
-    &-inner{
+    &-inner {
         display: flex;
-        &__content{
+        &__content {
             margin-left: 30px;
         }
-        &__name{
+        &__name {
             font-size: 24px;
         }
-        &__job{
-            font-family:$Poppins, sans-serif;;
+        &__job {
+            font-family: $Poppins, sans-serif;
+        }
+    }
+}
+.registration {
+    padding: 70px 0px 140px;
+    &-content {
+        padding: 75px;
+        background-color: $white;
+        border-radius: 10px;
+        box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.03);
+    }
+    &__title{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__text {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 600px;
+        margin-bottom: 40px;
+    }
+    &-form {
+        width: 526px;
+        margin: 0 auto;
+        outline: none;
+        border: 2px solid rgba(45, 116, 255, 0.2);
+        border-radius: 10px;
+        &__input {
+            display: inline-block;
+            width: 397px;
+            opacity: 0.5;
+            font-size: 16px;
+            padding: 15px 30px;
+            border-right: none;
+            outline: none;
+            border: none;
+        }
+        &__button {
+            display: inline-block;
+            width: 120px;
+            background: #2d74ff;
+            border-radius: 5px;
+            letter-spacing: 0.03em;
+            font-weight: 500;
+            padding: 16px 40px;
+            color: #ffffff;
+            border: none;
+            outline: none;
         }
     }
 }
