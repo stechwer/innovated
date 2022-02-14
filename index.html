@@ -43,6 +43,19 @@
                     <a href="#" class="header-btn btn">
                         Get started
                     </a>
+                    <div class="header-burger">
+                        <input type="checkbox" id="active">
+                        <label for="active" class="menu-btn"><span></span></label>
+                        <label for="active" class="close"></label>
+                        <div class="wrap">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Reviews</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="header-inner container">
@@ -85,16 +98,17 @@
                             What we do
                         </a>
                     </div>
-                    <div class="platform-image"
-                        style="background-image:url(images/platform-image.png);background-repeat: no-repeat; background-size:cover;">
+                    <div class="platform-img">
+                        <img src="images/platform-image.png" alt="platform-play" class="platform-image">
                         <a data-src="https://www.youtube.com/watch?v=WNeLUngb-Xg&list=RDV0woPCb5xk8&index=2"
                             class="platform-link" data-fancybox>
-                            <img src="images/platform-play.svg" alt="platform-play" class="platform-play">
+                            <img class="platform-play" src="images/platform-play.svg" alt="platform-play">
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="services">
             <div class="container">
                 <h4 class="services__title title">
@@ -191,8 +205,7 @@
                         viverra in a.
                     </p>
                     <form action="" class="registration-form">
-                        <input type="text" class="registration-form__input" placeholder="Enter your email address"
-                            required>
+                        <input type="text" class="registration-form__input" placeholder="Enter your email" required>
                         <button class="registration-form__button">
                             Send
                         </button>

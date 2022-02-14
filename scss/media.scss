@@ -1,0 +1,135 @@
+@media (max-width: 1190px) {
+    .platform-inner{
+        display: block;
+    }
+    .platform-content{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 1150px) {
+    .header-wrapper {
+        display: block;
+    }
+    .services-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .reviews-slider{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .header-image{
+        padding-top: 50px;
+    }
+}
+@media (max-width: 1150px) {
+    .header-wrapper {
+        display: block;
+    }
+    .services-inner{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .reviews-slider{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer-item:nth-child(3){
+        display: none;
+    }
+}
+@media (max-width: 950px) {
+    .header-btn {
+        display: none;
+    }
+    .header-menu {
+        margin-left: 0;
+    }
+    .header-top {
+        justify-content: space-between;
+    }
+    .platform-image{
+        width: 100%;
+    }
+}
+@media (max-width: 850px) {
+    .footer-item:nth-child(2){
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .header-content__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .registration-form__input{
+        display: block;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    .registration-form{
+        border:none;
+        width:unset;
+    }
+    .registration-form__input{
+        border: 2px solid rgba(45, 116, 255, 0.2);
+    }
+}
+@media (max-width: 650px) {
+    .footer-item:nth-child(1){
+        max-width: 250px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .registration{
+        padding-bottom: 0px;
+    }
+    .footer-item__intro{
+        font-size: 30px;
+    }
+    .header-burger{
+        z-index: 10;
+        display: block;
+    }
+}
+@media (max-width: 580px) {
+    .footer-item:nth-child(1){
+        display: none;
+    }
+    .footer-item:nth-child(4){
+        margin: 0 auto;
+    }
+    .platform-play{
+        width: 50px;
+    }
+}
+@media (max-width: 450px) {
+    .header-content__btn {
+        padding: 11px 15px;
+    }
+    .registration-form__input{
+        font-size: 12px;
+        padding: 15px 8px;
+    }
+    .registration-form__button{
+        font-size: 14px;
+    }
+    .header-content__btn:nth-child(2) {
+        display: none;
+    }
+    .reviews-slider__item{
+        padding: 30px;
+    }
+    .reviews-slider__text{
+        line-height: 27px;
+    }
+}
